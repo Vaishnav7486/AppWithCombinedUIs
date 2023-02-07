@@ -121,7 +121,7 @@ List<Map> placeAndImageList = [
       "https://media.easemytrip.com/media/Blog/International/637642996720321354/637642996720321354Kd8VRS.jpg",
       "https://media.easemytrip.com/media/Blog/International/637642996720321354/637642996720321354uRtBgA.jpg",
       "https://media.easemytrip.com/media/Blog/International/637642996720321354/637642996720321354UXqSi9.jpg",
-    ]
+    ] 
   },
   {
     "id": 4,

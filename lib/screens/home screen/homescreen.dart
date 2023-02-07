@@ -18,6 +18,7 @@ import 'package:p3profileui/screens/lottie%20animation/lottie_animation.dart';
 import 'package:p3profileui/screens/passing%20data%20between%20screens/data_pass_screen1.dart';
 import 'package:p3profileui/screens/profileui/profileui.dart';
 import 'package:p3profileui/screens/radio%20button/radioButton.dart';
+import 'package:p3profileui/screens/responsive%20ui/responsive_screen.dart';
 import 'package:p3profileui/screens/table/table.dart';
 import 'package:p3profileui/screens/walletUI/invoicenumberScreen.dart';
 
@@ -188,6 +189,13 @@ class NavigationButtons extends StatelessWidget {
               onButtonTap: () {
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (context) => InvoiceNumberScreen()));
+              }),
+          SizedBox(height: 24),
+          mainNavigationButtonTile(
+              buttonText: "sizer and Responsive UI",
+              onButtonTap: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => ResponsiveScreen()));
               }),
         ],
       ),
